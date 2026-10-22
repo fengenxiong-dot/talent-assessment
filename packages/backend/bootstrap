@@ -1,0 +1,2 @@
+#!/bin/bash
+exec /var/fc/lang/nodejs20/bin/node dist/index.js

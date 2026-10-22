@@ -1,0 +1,26 @@
+{
+  "name": "@talent/frontend",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "oxlint . --rules 'react/rules-of-hooks'",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7",
+    "react-router-dom": "^7.10.1",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.6",
+    "@types/react-dom": "^19.1.6",
+    "@vitejs/plugin-react": "^5.1.1",
+    "oxlint": "^1.71.0",
+    "typescript": "~5.9.3",
+    "vite": "^7.2.4"
+  }
+}
